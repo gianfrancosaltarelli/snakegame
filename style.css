@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+canvas {
+    border: 2px solid white;
+    display: none;
+    background-color: black;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 24px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+#score {
+    display: none;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px; /* Agregamos margen inferior para separar los botones de la puntuación */
+}
+
+.apple {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.snake {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
